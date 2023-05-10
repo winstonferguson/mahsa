@@ -7,7 +7,7 @@
           "type": "heading",
           "settings": {
             "heading": "Browse our latest products",
-            "heading_size": "h0"
+            "heading_size": "h1"
           }
         },
         "button": {
@@ -78,7 +78,7 @@
       ],
       "settings": {
         "title": "Press",
-        "heading_size": "h1",
+        "heading_size": "h2",
         "image_width": "full",
         "image_ratio": "adapt",
         "columns_desktop": 3,
@@ -128,7 +128,7 @@
           "type": "heading",
           "settings": {
             "heading": "Image banner",
-            "heading_size": "h1"
+            "heading_size": "h0"
           }
         },
         "template--15849754886299__8ef7cd59-eabb-4193-b59f-0ea5fc2f4c4b-1683709700386a93b3-1": {
@@ -158,7 +158,7 @@
       "settings": {
         "image": "shopify:\/\/shop_images\/WhatsApp_Image_2023-04-12_at_17.27.18.jpg",
         "image_overlay_opacity": 0,
-        "image_height": "medium",
+        "image_height": "large",
         "desktop_content_position": "middle-right",
         "show_text_box": false,
         "desktop_content_alignment": "center",
