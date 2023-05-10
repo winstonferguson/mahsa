@@ -541,7 +541,7 @@
                     <details 
                       id="Details-HeaderMenu-{{ forloop.index }}" 
                       class="mega-menu" 
-                      {% if !section.settings.sticky_header_type %} 
+                      {% if section.settings.sticky_header_type == false %} 
                         {%if template.name == "collection" or template.name == "product" %}
                           open
                         {% endif %}>
