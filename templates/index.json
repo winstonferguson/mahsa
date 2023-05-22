@@ -6,8 +6,8 @@
         "heading": {
           "type": "heading",
           "settings": {
-            "heading": "Browse our latest products",
-            "heading_size": "h1"
+            "heading": "Super heading",
+            "heading_size": "h0"
           }
         },
         "button": {
@@ -29,7 +29,7 @@
       "settings": {
         "image": "shopify:\/\/shop_images\/WhatsApp_Image_2023-04-12_at_17.27.17.jpg",
         "image_overlay_opacity": 20,
-        "image_height": "medium",
+        "image_height": "large",
         "desktop_content_position": "middle-left",
         "show_text_box": false,
         "desktop_content_alignment": "center",
@@ -37,7 +37,14 @@
         "image_behavior": "none",
         "mobile_content_alignment": "center",
         "stack_images_on_mobile": false,
-        "show_text_below": false
+        "show_text_below": false,
+        "margin_top": 0,
+        "margin_bottom": 0,
+        "container_max_width": 89,
+        "dryer_image_sizing": true,
+        "dryer_image_sizing_mobile": 85,
+        "dryer_image_sizing_desktop": 85,
+        "dryer_image_sizing_position": "center"
       }
     },
     "7ef19a1f-f20a-4d98-9ec4-c2a8f5ee70bb": {
@@ -46,6 +53,7 @@
         "template--15849754886299__7ef19a1f-f20a-4d98-9ec4-c2a8f5ee70bb-168370960160a6af8f-0": {
           "type": "column",
           "settings": {
+            "image": "shopify:\/\/shop_images\/the_times_logo.png",
             "title": "",
             "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
             "link_label": "",
@@ -55,6 +63,7 @@
         "template--15849754886299__7ef19a1f-f20a-4d98-9ec4-c2a8f5ee70bb-168370960160a6af8f-1": {
           "type": "column",
           "settings": {
+            "image": "shopify:\/\/shop_images\/vogue_logo.png",
             "title": "",
             "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
             "link_label": "",
@@ -64,6 +73,47 @@
         "template--15849754886299__7ef19a1f-f20a-4d98-9ec4-c2a8f5ee70bb-168370960160a6af8f-2": {
           "type": "column",
           "settings": {
+            "image": "shopify:\/\/shop_images\/tatler_logo.png",
+            "title": "",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "c52bb963-57b0-40c7-a8ae-90a7967bac42": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/GQ_logo.png",
+            "title": "",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "38d15d73-eabe-470e-971f-1f9d5dfb3bf2": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/destino_logo.png",
+            "title": "",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "fdf25a21-77c7-4e11-a4c5-761c1fbb8d1a": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/red_logo.png",
+            "title": "",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "873c06ee-f5b2-4b81-9f75-85eb1f28a5f4": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/country_and_town_house_logo.png",
             "title": "",
             "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
             "link_label": "",
@@ -74,21 +124,27 @@
       "block_order": [
         "template--15849754886299__7ef19a1f-f20a-4d98-9ec4-c2a8f5ee70bb-168370960160a6af8f-0",
         "template--15849754886299__7ef19a1f-f20a-4d98-9ec4-c2a8f5ee70bb-168370960160a6af8f-1",
-        "template--15849754886299__7ef19a1f-f20a-4d98-9ec4-c2a8f5ee70bb-168370960160a6af8f-2"
+        "template--15849754886299__7ef19a1f-f20a-4d98-9ec4-c2a8f5ee70bb-168370960160a6af8f-2",
+        "c52bb963-57b0-40c7-a8ae-90a7967bac42",
+        "38d15d73-eabe-470e-971f-1f9d5dfb3bf2",
+        "fdf25a21-77c7-4e11-a4c5-761c1fbb8d1a",
+        "873c06ee-f5b2-4b81-9f75-85eb1f28a5f4"
       ],
       "settings": {
         "title": "Press",
         "heading_size": "h2",
+        "heading_alignment": "center",
         "image_width": "full",
         "image_ratio": "adapt",
-        "columns_desktop": 3,
-        "column_alignment": "left",
+        "columns_desktop": 2,
+        "column_alignment": "center",
         "background_style": "none",
         "button_label": "",
         "button_link": "",
         "color_scheme": "background-2",
         "columns_mobile": "1",
         "swipe_on_mobile": true,
+        "slide_on_desktop": true,
         "padding_top": 36,
         "padding_bottom": 36
       }
@@ -143,7 +199,7 @@
           "settings": {
             "button_label_1": "Button label",
             "button_link_1": "",
-            "button_style_secondary_1": false,
+            "button_style_secondary_1": true,
             "button_label_2": "",
             "button_link_2": "",
             "button_style_secondary_2": false
@@ -166,7 +222,14 @@
         "image_behavior": "none",
         "mobile_content_alignment": "center",
         "stack_images_on_mobile": true,
-        "show_text_below": false
+        "show_text_below": false,
+        "margin_top": 0,
+        "margin_bottom": 0,
+        "container_max_width": 50,
+        "dryer_image_sizing": false,
+        "dryer_image_sizing_mobile": 80,
+        "dryer_image_sizing_desktop": 80,
+        "dryer_image_sizing_position": "center"
       }
     },
     "b73d391e-3093-4cce-9d8c-06fe100cd79c": {
@@ -176,7 +239,7 @@
           "type": "heading",
           "settings": {
             "heading": "Image banner",
-            "heading_size": "h1"
+            "heading_size": "h0"
           }
         },
         "template--15849754886299__b73d391e-3093-4cce-9d8c-06fe100cd79c-1683709700386a93b3-1": {
@@ -191,7 +254,7 @@
           "settings": {
             "button_label_1": "Button label",
             "button_link_1": "",
-            "button_style_secondary_1": false,
+            "button_style_secondary_1": true,
             "button_label_2": "",
             "button_link_2": "",
             "button_style_secondary_2": false
@@ -206,7 +269,7 @@
       "settings": {
         "image": "shopify:\/\/shop_images\/WhatsApp_Image_2023-04-12_at_17.27.19.jpg",
         "image_overlay_opacity": 0,
-        "image_height": "medium",
+        "image_height": "large",
         "desktop_content_position": "middle-left",
         "show_text_box": false,
         "desktop_content_alignment": "center",
@@ -214,7 +277,14 @@
         "image_behavior": "none",
         "mobile_content_alignment": "center",
         "stack_images_on_mobile": true,
-        "show_text_below": false
+        "show_text_below": false,
+        "margin_top": 60,
+        "margin_bottom": 0,
+        "container_max_width": 50,
+        "dryer_image_sizing": false,
+        "dryer_image_sizing_mobile": 80,
+        "dryer_image_sizing_desktop": 80,
+        "dryer_image_sizing_position": "center"
       }
     }
   },

@@ -37,7 +37,9 @@
 }
 
 .collection-hero__title {
+  font-size: 2rem;
   margin: 2.5rem 0;
+  text-align: center;
 }
 
 .collection-hero__title + .collection-hero__description {

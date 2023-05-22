@@ -176,7 +176,11 @@ variant-selects {
 }
 
 .product-form__input .form__label {
+  font-size: 10px;
+  font-weight: 600;
+  text-transform: uppercase;
   padding-left: 0;
+  
 }
 
 fieldset.product-form__input .form__label {
@@ -200,7 +204,7 @@ fieldset.product-form__input .form__label {
   display: inline-block;
   margin: 0.7rem 0.5rem 0.2rem 0;
   padding: 1rem 2rem;
-  font-size: 1.4rem;
+  font-size: 1.2rem;
   letter-spacing: 0.1rem;
   line-height: 1;
   text-align: center;
@@ -226,8 +230,7 @@ fieldset.product-form__input .form__label {
 }
 
 .product-form__input input[type='radio']:checked + label {
-  background-color: rgb(var(--color-foreground));
-  color: rgb(var(--color-background));
+  border-color: rgb(var(--color-foreground));
 }
 
 .product-form__input input[type='radio']:not(.disabled) + label > .visually-hidden {

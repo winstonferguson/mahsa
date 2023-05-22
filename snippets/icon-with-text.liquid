@@ -10,6 +10,20 @@
     block: block
   %}
 {% endcomment %}
+{%- style -%}
+  {% if block.settings.border_top %}
+    .section-{{ section.id }}-padding .icon-with-text {
+      border-top: 1px solid rgba(33, 33, 33, 0.08);
+      padding-top: 2.5rem;
+    }
+  {% endif %}
+  {% if block.settings.border_bottom %}
+    .section-{{ section.id }}-padding .icon-with-text {
+      border-bottom: 1px solid rgba(33, 33, 33, 0.08);
+      padding-bottom: 2.5rem;
+    }
+  {% endif %}
+{%- endstyle -%}
 {%- liquid
   assign heading_1_empty = false
   assign heading_2_empty = false

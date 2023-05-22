@@ -14,6 +14,35 @@
       padding-bottom: {{ section.settings.padding_bottom }}px;
     }
   }
+
+  .section-{{ section.id }}-padding .related-products__heading {
+    text-align: {{ section.settings.heading_alignment }};
+  }
+
+  {% if section.settings.border_top %}
+    .section-{{ section.id }}-padding {
+      border-top: 0.1rem solid rgba(var(--color-foreground), 0.2);
+      margin-top: {{ section.settings.padding_top | times: 0.75 | round: 0 }}px;
+    }
+
+    @media screen and (min-width: 750px) {
+      .section-{{ section.id }}-padding {
+        margin-top: {{ section.settings.padding_top }}px;
+      }
+    }
+  {% endif %}
+  {% if section.settings.border_bottom %}
+    .section-{{ section.id }}-padding .related-products {
+      border-bottom: 0.1rem solid rgba(var(--color-foreground), 0.2);
+      margin-bottom: {{ section.settings.padding_bottom | times: 0.75 | round: 0 }}px;
+    }
+
+    @media screen and (min-width: 750px) {
+      .section-{{ section.id }}-padding {
+        margin-bottom: {{ section.settings.padding_bottom }}px;
+      }
+    }
+  {% endif %}
 {%- endstyle -%}
 
 <div class="color-{{ section.settings.color_scheme }} gradient no-js-hidden">
@@ -80,6 +109,38 @@
       ],
       "default": "h1",
       "label": "t:sections.all.heading_size.label"
+    },
+    {
+      "type": "select",
+      "id": "heading_alignment",
+      "options": [
+        {
+          "value": "left",
+          "label": "LEft"
+        },
+        {
+          "value": "center",
+          "label": "Center"
+        },
+        {
+          "value": "right",
+          "label": "Right"
+        }
+      ],
+      "default": "center",
+      "label": "Heading alignment"
+    },
+    {
+      "type": "checkbox",
+      "id": "border_top",
+      "label": "Enable top border",
+      "default": false
+    },
+    {
+      "type": "checkbox",
+      "id": "border_bottom",
+      "label": "Show bottom border",
+      "default": false
     },
     {
       "type": "range",

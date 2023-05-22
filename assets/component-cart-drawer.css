@@ -213,6 +213,13 @@ cart-drawer-items {
   margin-bottom: 0;
 }
 
+.cart-drawer .cart-item,
+.cart-drawer .cart-item a,
+.cart-drawer .cart-item__totals .price ,
+.cart-drawer .product-option{
+  font-size: 1.2rem;
+}
+
 .cart-drawer .cart-item:last-child {
   margin-bottom: 1rem;
 }
@@ -322,6 +329,7 @@ cart-drawer-items {
 
 .cart-drawer .product-option dd {
   word-break: break-word;
+  text-transform: capitalize;
 }
 
 .cart-drawer details[open]>summary .icon-caret {
