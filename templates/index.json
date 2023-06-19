@@ -55,7 +55,7 @@
           "settings": {
             "image": "shopify:\/\/shop_images\/the_times_logo.png",
             "title": "",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "text": "",
             "link_label": "",
             "link": ""
           }
@@ -65,7 +65,7 @@
           "settings": {
             "image": "shopify:\/\/shop_images\/vogue_logo.png",
             "title": "",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "text": "",
             "link_label": "",
             "link": ""
           }
@@ -75,7 +75,7 @@
           "settings": {
             "image": "shopify:\/\/shop_images\/tatler_logo.png",
             "title": "",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "text": "",
             "link_label": "",
             "link": ""
           }
@@ -85,7 +85,7 @@
           "settings": {
             "image": "shopify:\/\/shop_images\/GQ_logo.png",
             "title": "",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "text": "",
             "link_label": "",
             "link": ""
           }
@@ -95,7 +95,7 @@
           "settings": {
             "image": "shopify:\/\/shop_images\/destino_logo.png",
             "title": "",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "text": "",
             "link_label": "",
             "link": ""
           }
@@ -105,7 +105,7 @@
           "settings": {
             "image": "shopify:\/\/shop_images\/red_logo.png",
             "title": "",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "text": "",
             "link_label": "",
             "link": ""
           }
@@ -115,7 +115,7 @@
           "settings": {
             "image": "shopify:\/\/shop_images\/country_and_town_house_logo.png",
             "title": "",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "text": "",
             "link_label": "",
             "link": ""
           }
@@ -136,7 +136,7 @@
         "heading_alignment": "center",
         "image_width": "full",
         "image_ratio": "adapt",
-        "columns_desktop": 4,
+        "columns_desktop": 5,
         "column_alignment": "center",
         "background_style": "none",
         "button_label": "",

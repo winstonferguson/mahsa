@@ -23,7 +23,7 @@
         "template--15859320225947__6f46af54-846e-4fe7-b371-e604217117dd-168450781397d86e17-1"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/drNejati2.png",
+        "image": "shopify:\/\/shop_images\/drNejati2_b15ba030-195f-4cd5-a97e-04c977d6e719.png",
         "height": "adapt",
         "desktop_image_width": "medium",
         "layout": "image_first",
@@ -34,7 +34,9 @@
         "image_behavior": "none",
         "mobile_content_alignment": "left",
         "padding_top": 0,
-        "padding_bottom": 0
+        "padding_bottom": 0,
+        "full_width": false,
+        "disable_image_border": false
       }
     },
     "main": {
@@ -63,6 +65,7 @@
         },
         "template--15859320225947__1e00ca51-994d-4941-85da-2951791c0778-168450781397d86e17-2": {
           "type": "button",
+          "disabled": true,
           "settings": {
             "button_label": "Learn More",
             "button_link": ""
@@ -86,7 +89,9 @@
         "image_behavior": "none",
         "mobile_content_alignment": "left",
         "padding_top": 0,
-        "padding_bottom": 0
+        "padding_bottom": 0,
+        "full_width": false,
+        "disable_image_border": false
       }
     }
   },
