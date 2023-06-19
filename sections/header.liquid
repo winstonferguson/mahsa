@@ -30,6 +30,19 @@
 <noscript>{{ 'component-cart-notification.css' | asset_url | stylesheet_tag }}</noscript>
 <noscript>{{ 'component-cart-items.css' | asset_url | stylesheet_tag }}</noscript>
 
+{%- liquid
+  assign alpha_header = false
+  assign sticky_header_type = section.settings.sticky_header_type
+  
+  if settings.home_header_alpha and template.name == "index"
+    assign alpha_header = true
+  endif
+
+  if alpha_header
+    assign sticky_header_type = 'none'
+  endif
+-%}
+
 <style>
   header-drawer {
     justify-self: start;
@@ -37,7 +50,7 @@
   }
 
 
-  {%- if section.settings.sticky_header_type == 'reduce-logo-size' -%}
+  {%- if sticky_header_type == 'reduce-logo-size' -%}
     .scrolled-past-header .header__heading-logo-wrapper {
       width: 75%;
     }
@@ -112,7 +125,11 @@
 
   .header--alpha {
     background-color: transparent;
-    margin-bottom: -68px;
+    display: none;
+  }
+
+  .header--alpha img.header__heading-logo {
+    filter: invert(1) grayscale(1) contrast(2)
   }
 
   .section-header {
@@ -133,21 +150,6 @@
     }
   }
 {%- endstyle -%}
-
-{%- if settings.home_header_alpha and template.name == "index" %}
-  {%- style -%}
-    .header--alpha {
-      background-color: transparent;
-      margin-bottom: -68px;
-    }
-
-    .header--alpha img.header__heading-logo {
-      filter: invert(1) grayscale(1) contrast(2)
-    }
-  {%- endstyle -%}
-  {%- assign sticky_header_type = 'none' -%}  
-{%- endif -%}
-
 
 <script src="{{ 'details-disclosure.js' | asset_url }}" defer="defer"></script>
 <script src="{{ 'details-modal.js' | asset_url }}" defer="defer"></script>
@@ -184,7 +186,7 @@
   endfor
 -%}
 
-<{% if section.settings.sticky_header_type != 'none' %}sticky-header data-sticky-type="{{ section.settings.sticky_header_type }}"{% else %}div{% endif %} class="header-wrapper color-{{ section.settings.color_scheme }} gradient{% if section.settings.show_line_separator %} header-wrapper--border-bottom{% endif %}{% if settings.home_header_alpha and template.name == "index" %} header--alpha color-inverse{% endif %}">
+<{% if sticky_header_type != 'none' %}sticky-header data-sticky-type="{{ sticky_header_type }}"{% else %}div{% endif %} class="header-wrapper color-{{ section.settings.color_scheme }} gradient{% if section.settings.show_line_separator %} header-wrapper--border-bottom{% endif %}{% if alpha_header %} header--alpha color-inverse{% endif %}">
   <header class="header header--{{ section.settings.logo_position }} header--mobile-{{ section.settings.mobile_logo_position }} page-width{% if section.settings.menu_type_desktop == 'drawer' %} drawer-menu{% endif %}{% if section.settings.menu != blank %} header--has-menu{% endif %}{% if has_app_block %} header--has-app{% endif %}">
     {%- if section.settings.menu != blank -%}
       <header-drawer data-breakpoint="{% if section.settings.menu_type_desktop == 'drawer' %}desktop{% else %}tablet{% endif %}">
@@ -556,7 +558,7 @@
                     <details 
                       id="Details-HeaderMenu-{{ forloop.index }}" 
                       class="mega-menu" 
-                      {% if section.settings.sticky_header_type == false %} 
+                      {% if sticky_header_type == false %} 
                         {% if template.name == "collection" or template.name == "product" %}
                           open
                         {% endif %}>
@@ -779,13 +781,22 @@
       </a>
     </div>
   </header>
-</{% if section.settings.sticky_header_type != 'none' %}sticky-header{% else %}div{% endif %}>
+
+</{% if sticky_header_type != 'none' %}sticky-header{% else %}div{% endif %}>
 
 {%- if settings.cart_type == "notification" -%}
   {%- render 'cart-notification', color_scheme: section.settings.color_scheme, desktop_menu_type: section.settings.menu_type_desktop -%}
 {%- endif -%}
 
 {% javascript %}
+      
+  const alphaHeader = document.querySelector('.header--alpha');
+
+  if (alphaHeader) {
+    alphaHeader.style.display = `block`;
+    alphaHeader.style.marginBottom = `-${alphaHeader.offsetHeight}px`;
+  }
+
   class StickyHeader extends HTMLElement {
     constructor() {
       super();
