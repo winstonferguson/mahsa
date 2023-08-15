@@ -22,6 +22,7 @@
         "template--15849754984603__29a0d0a0-2b8f-42b4-9fec-2cb2e327ef5f-168450871504708cef-0",
         "template--15849754984603__29a0d0a0-2b8f-42b4-9fec-2cb2e327ef5f-168450871504708cef-1"
       ],
+      "disabled": true,
       "settings": {
         "image": "shopify:\/\/shop_images\/drNejati2_b15ba030-195f-4cd5-a97e-04c977d6e719.png",
         "height": "adapt",
@@ -43,6 +44,7 @@
     "main": {
       "type": "main-page",
       "settings": {
+        "color_scheme": "background-1",
         "padding_top": 56,
         "padding_bottom": 72
       }
@@ -69,6 +71,7 @@
         "template--15849754984603__882ee964-84da-46ec-b194-0faf9ead8435-168450871504708cef-0",
         "template--15849754984603__882ee964-84da-46ec-b194-0faf9ead8435-168450871504708cef-1"
       ],
+      "disabled": true,
       "settings": {
         "image": "shopify:\/\/shop_images\/Sequence_01.00_00_31_14.Still004.jpg",
         "height": "medium",
