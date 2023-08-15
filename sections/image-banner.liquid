@@ -44,6 +44,12 @@
         max-height: {{ section.settings.dryer_image_sizing_desktop }}vh;
       }
     }
+
+    @media screen and (min-width: 3200px) {
+      #Banner-{{ section.id }} .banner__content {
+        max-width: 50vw;
+      }
+    }
   {%- endstyle -%}
 {%- endif -%}
 

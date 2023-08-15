@@ -1,0 +1,144 @@
+{%- style -%}
+  .menu-inline__shop {
+    overflow-x: auto;
+    padding-bottom: 0.8rem;
+  }
+
+  .menu-inline__shop .list-menu {
+    flex-wrap: inherit;
+    justify-content: start;
+    max-width: 100%;
+  }
+
+  .menu-inline__shop .list-menu li {
+    display: block;
+    flex: 1 0 auto;
+  }
+
+  .menu-inline__shop .list-menu__item {
+    padding-bottom: 0rem;
+    padding-top: 0rem;
+  }
+
+  .menu-inline__shop .list-menu__item span {
+    color: rgba(var(--color-foreground), 0.75);
+    display: block;
+    font-size: 1rem;
+    font-weight: 600;
+    padding-bottom: 1.6rem;
+    padding-top: 1.6rem;
+    text-decoration: none;
+    text-transform: uppercase;
+    transition: text-decoration var(--duration-short) ease;
+    word-wrap: break-word;
+  }
+
+  .menu-inline__shop .list-menu__item:hover span,
+  .menu-inline__shop .list-menu__item--active span {
+    color: rgb(var(--color-foreground));
+    text-decoration: underline;
+  }
+
+  @media (min-width: 768px) {
+    .menu-inline__shop {
+      overflow-x: auto;
+      padding-bottom: 0;
+    }
+
+    .menu-inline__shop .list-menu {
+      flex-wrap: wrap;
+      gap: 2rem;
+      justify-content: center;
+      padding: 0 1rem;
+      width: 100%;
+    }
+
+    .menu-inline__shop .list-menu li {
+      flex: inherit;
+    }
+  }
+{%- endstyle -%}
+
+{% if template.name == 'collection' or template.name == 'product' %}
+  <nav class="menu-inline__shop color-inverse">
+    <ul class="list-menu list-menu--inline" role="list">
+      {%- for link in menu.links -%}
+        <li>
+          {%- if link.links != blank -%}
+            <header-menu>
+              <details id="Details-HeaderMenu-{{ forloop.index }}" class="mega-menu">
+                <summary class="header__menu-item list-menu__item link focus-inset">
+                  <span
+                    {%- if link.child_active %}
+                      class="header__active-menu-item"
+                    {% endif %}
+                  >
+                    {{- link.title | escape -}}
+                  </span>
+                  {% render 'icon-caret' %}
+                </summary>
+                <div
+                  id="MegaMenu-Content-{{ forloop.index }}"
+                  class="mega-menu__content gradient motion-reduce global-settings-popup color-inverse"
+                  tabindex="-1"
+                >
+                  <ul
+                    class="mega-menu__list page-width{% if link.levels == 1 %} mega-menu__list--condensed{% endif %}"
+                    role="list"
+                  >
+                    {%- for childlink in link.links -%}
+                      <li>
+                        <a
+                          href="{{ childlink.url }}"
+                          class="mega-menu__link mega-menu__link--level-2 link{% if childlink.current %} mega-menu__link--active{% endif %}"
+                          {% if childlink.current %}
+                            aria-current="page"
+                          {% endif %}
+                        >
+                          {{ childlink.title | escape }}
+                        </a>
+                        {%- if childlink.links != blank -%}
+                          <ul class="list-unstyled" role="list">
+                            {%- for grandchildlink in childlink.links -%}
+                              <li>
+                                <a
+                                  href="{{ grandchildlink.url }}"
+                                  class="mega-menu__link link{% if grandchildlink.current %} mega-menu__link--active{% endif %}"
+                                  {% if grandchildlink.current %}
+                                    aria-current="page"
+                                  {% endif %}
+                                >
+                                  {{ grandchildlink.title | escape }}
+                                </a>
+                              </li>
+                            {%- endfor -%}
+                          </ul>
+                        {%- endif -%}
+                      </li>
+                    {%- endfor -%}
+                  </ul>
+                </div>
+              </details>
+            </header-menu>
+          {%- else -%}
+            <a
+              href="{{ link.url }}"
+              class="header__menu-item list-menu__item link link--text focus-inset"
+              {% if link.current %}
+                aria-current="page"
+              {% endif %}
+            >
+              <span
+                {%- if link.current %}
+                  class="header__active-menu-item"
+                {% endif %}
+              >
+                {{- link.title | escape -}}
+              </span>
+            </a>
+          {%- endif -%}
+        </li>
+      {%- endfor -%}
+    </ul>
+  </nav>
+{% endif %}

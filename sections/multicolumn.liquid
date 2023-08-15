@@ -24,34 +24,38 @@
 {%- liquid
   assign columns_mobile_int = section.settings.columns_mobile | plus: 0
   assign show_mobile_slider = false
+  assign infinite_carousel = false
   if section.settings.swipe_on_mobile and section.blocks.size > columns_mobile_int
     assign show_mobile_slider = true
   endif
   if show_mobile_slider and section.settings.slide_on_desktop
     assign show_desktop_slider = true
   endif
+  if section.settings.infinite_carousel and section.blocks.size > columns_mobile_int
+    assign infinite_carousel = true
+  endif
 -%}
 {%- if show_desktop_slider -%}
   {%- style -%}
     @media screen and (min-width: 990px) {
       .section-{{ section.id }}-padding .slider--desktop.grid--5-col-desktop .grid__item {
-        width: calc( (100% - var(--desktop-margin-left-first-item)) / 2.5 - var(--grid-desktop-horizontal-spacing) * 2);
+        width: calc( ((100% - var(--desktop-margin-left-first-item)) * 2 - var(--grid-desktop-horizontal-spacing) * 4) / 5);
       }
 
       .section-{{ section.id }}-padding .slider--desktop.grid--4-col-desktop .grid__item {
-        width: calc( (100% - var(--desktop-margin-left-first-item)) / 2 - var(--grid-desktop-horizontal-spacing) * 3);
+        width: calc( ((100% - var(--desktop-margin-left-first-item)) * 2 - var(--grid-desktop-horizontal-spacing) * 3) / 4);
       }
 
       .section-{{ section.id }}-padding .slider--desktop.grid--3-col-desktop .grid__item {
-        width: calc( (100% - var(--desktop-margin-left-first-item)) / 1.5 - var(--grid-desktop-horizontal-spacing) * 4);
+        width: calc( ((100% - var(--desktop-margin-left-first-item)) * 2 - var(--grid-desktop-horizontal-spacing) * 2) / 3);
       }
 
       .section-{{ section.id }}-padding .slider--desktop.grid--2-col-desktop .grid__item {
-        width: calc( (100% - var(--desktop-margin-left-first-item)) / 1 - var(--grid-desktop-horizontal-spacing) * 5);
+        width:  calc( ((100% - var(--desktop-margin-left-first-item)) * 2 - var(--grid-desktop-horizontal-spacing)) / 2);
       }
 
       .section-{{ section.id }}-padding .slider--desktop.grid--1-col-desktop .grid__item {
-        width: calc( (100% - var(--desktop-margin-left-first-item)) * 2 - var(--grid-desktop-horizontal-spacing) * 9);
+        width: calc( (100% - var(--desktop-margin-left-first-item)) * 2);
       }
     }
   {%- endstyle -%}
@@ -71,7 +75,7 @@
         {%- endif -%}
       </div>
     {%- endunless -%}
-    <slider-component class="slider-mobile-gutter">
+    <slider-component class="slider-mobile-gutter" data-infinite-carousel="{{ infinite_carousel }}">
       <ul
         class="multicolumn-list contains-content-container grid grid--{{ section.settings.columns_mobile }}-col-tablet-down grid--{{ section.settings.columns_desktop }}-col-desktop{% if show_mobile_slider %} slider slider--mobile grid--peek{% endif %}{% if show_desktop_slider %}slider--tablet slider--desktop{% endif %}"
         id="Slider-{{ section.id }}"
@@ -425,6 +429,13 @@
       "info": "Swipe on mobile must be enabled for slide on desktop to function",
       "default": false,
       "label": "Enable slide on desktop"
+    },
+    {
+      "type": "checkbox",
+      "id": "infinite_carousel",
+      "info": "Show multicolumn content as an infinite carousel - disables swipe/slide navigation.",
+      "default": false,
+      "label": "Infinite carousel"
     },
     {
       "type": "header",
