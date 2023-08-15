@@ -6,8 +6,15 @@
         "heading": {
           "type": "heading",
           "settings": {
-            "heading": "Super heading",
+            "heading": "Powered by nature",
             "heading_size": "h0"
+          }
+        },
+        "75cc384f-a723-4c05-a074-ede118c8f8a0": {
+          "type": "text",
+          "settings": {
+            "text": "Oral health powered by vegan friendly, natural ingredients.",
+            "text_style": "body"
           }
         },
         "button": {
@@ -24,13 +31,14 @@
       },
       "block_order": [
         "heading",
+        "75cc384f-a723-4c05-a074-ede118c8f8a0",
         "button"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/WhatsApp_Image_2023-04-12_at_17.27.17.jpg",
+        "image": "shopify:\/\/shop_images\/iStock-1321856038.jpg",
         "image_overlay_opacity": 20,
         "image_height": "large",
-        "desktop_content_position": "middle-left",
+        "desktop_content_position": "bottom-center",
         "show_text_box": false,
         "desktop_content_alignment": "center",
         "color_scheme": "background-1",
@@ -131,12 +139,12 @@
         "873c06ee-f5b2-4b81-9f75-85eb1f28a5f4"
       ],
       "settings": {
-        "title": "Press",
+        "title": "press",
         "heading_size": "h2",
         "heading_alignment": "center",
-        "image_width": "full",
+        "image_width": "half",
         "image_ratio": "adapt",
-        "columns_desktop": 5,
+        "columns_desktop": 4,
         "column_alignment": "center",
         "background_style": "none",
         "button_label": "",
@@ -145,6 +153,7 @@
         "columns_mobile": "1",
         "swipe_on_mobile": true,
         "slide_on_desktop": true,
+        "infinite_carousel": true,
         "padding_top": 36,
         "padding_bottom": 36
       }
@@ -177,27 +186,138 @@
         "padding_bottom": 36
       }
     },
+    "b73d391e-3093-4cce-9d8c-06fe100cd79c": {
+      "type": "image-banner",
+      "blocks": {
+        "template--15849754886299__b73d391e-3093-4cce-9d8c-06fe100cd79c-1683709700386a93b3-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "Powered by gemstones",
+            "heading_size": "h0"
+          }
+        },
+        "template--15849754886299__b73d391e-3093-4cce-9d8c-06fe100cd79c-1683709700386a93b3-1": {
+          "type": "text",
+          "settings": {
+            "text": "",
+            "text_style": "body"
+          }
+        },
+        "template--15849754886299__b73d391e-3093-4cce-9d8c-06fe100cd79c-1683709700386a93b3-2": {
+          "type": "buttons",
+          "settings": {
+            "button_label_1": "Coming soon",
+            "button_link_1": "",
+            "button_style_secondary_1": false,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "template--15849754886299__b73d391e-3093-4cce-9d8c-06fe100cd79c-1683709700386a93b3-0",
+        "template--15849754886299__b73d391e-3093-4cce-9d8c-06fe100cd79c-1683709700386a93b3-1",
+        "template--15849754886299__b73d391e-3093-4cce-9d8c-06fe100cd79c-1683709700386a93b3-2"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/iStock-1289362630.jpg",
+        "image_overlay_opacity": 10,
+        "image_height": "large",
+        "desktop_content_position": "middle-left",
+        "show_text_box": false,
+        "desktop_content_alignment": "center",
+        "color_scheme": "background-1",
+        "image_behavior": "none",
+        "mobile_content_alignment": "center",
+        "stack_images_on_mobile": true,
+        "show_text_below": false,
+        "margin_top": 0,
+        "margin_bottom": 0,
+        "container_max_width": 50,
+        "dryer_image_sizing": true,
+        "dryer_image_sizing_mobile": 80,
+        "dryer_image_sizing_desktop": 80,
+        "dryer_image_sizing_position": "center"
+      }
+    },
+    "357fbaad-1f61-4cba-bc96-85d7a2e4e869": {
+      "type": "image-banner",
+      "blocks": {
+        "e36b3fe9-9be6-4f16-b728-456908b9ebd0": {
+          "type": "heading",
+          "settings": {
+            "heading": "Powered by light",
+            "heading_size": "h0"
+          }
+        },
+        "e2893c91-1bf2-4b41-8f34-7bb1dcf58d43": {
+          "type": "text",
+          "settings": {
+            "text": "NEW TRIO LED LIGHT ACTIVATED 3 IN 1 KIT",
+            "text_style": "body"
+          }
+        },
+        "0bad88ef-e11b-4400-ac2f-d4f2a4f9610b": {
+          "type": "buttons",
+          "settings": {
+            "button_label_1": "Learn more",
+            "button_link_1": "shopify:\/\/products\/trio-led-light-activated-3-in-1-kit",
+            "button_style_secondary_1": true,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "e36b3fe9-9be6-4f16-b728-456908b9ebd0",
+        "e2893c91-1bf2-4b41-8f34-7bb1dcf58d43",
+        "0bad88ef-e11b-4400-ac2f-d4f2a4f9610b"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/mahsaLED.jpg",
+        "image_overlay_opacity": 20,
+        "image_height": "large",
+        "desktop_content_position": "middle-right",
+        "show_text_box": false,
+        "desktop_content_alignment": "center",
+        "color_scheme": "background-1",
+        "image_behavior": "none",
+        "mobile_content_alignment": "center",
+        "stack_images_on_mobile": true,
+        "show_text_below": false,
+        "margin_top": 60,
+        "margin_bottom": 0,
+        "container_max_width": 50,
+        "dryer_image_sizing": true,
+        "dryer_image_sizing_mobile": 80,
+        "dryer_image_sizing_desktop": 80,
+        "dryer_image_sizing_position": "center"
+      }
+    },
     "8ef7cd59-eabb-4193-b59f-0ea5fc2f4c4b": {
       "type": "image-banner",
+      "disabled": true,
       "blocks": {
         "template--15849754886299__8ef7cd59-eabb-4193-b59f-0ea5fc2f4c4b-1683709700386a93b3-0": {
           "type": "heading",
           "settings": {
-            "heading": "Image banner",
+            "heading": "Natural recovery",
             "heading_size": "h0"
           }
         },
         "template--15849754886299__8ef7cd59-eabb-4193-b59f-0ea5fc2f4c4b-1683709700386a93b3-1": {
           "type": "text",
           "settings": {
-            "text": "Give customers details about the banner image(s) or content on the template.",
+            "text": "Jet pack remedy and travel pack",
             "text_style": "body"
           }
         },
         "template--15849754886299__8ef7cd59-eabb-4193-b59f-0ea5fc2f4c4b-1683709700386a93b3-2": {
           "type": "buttons",
           "settings": {
-            "button_label_1": "Button label",
+            "button_label_1": "Coming soon",
             "button_link_1": "",
             "button_style_secondary_1": false,
             "button_label_2": "",
@@ -212,8 +332,8 @@
         "template--15849754886299__8ef7cd59-eabb-4193-b59f-0ea5fc2f4c4b-1683709700386a93b3-2"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/WhatsApp_Image_2023-04-12_at_17.27.18.jpg",
-        "image_overlay_opacity": 0,
+        "image": "shopify:\/\/shop_images\/iStock-1312113042.jpg",
+        "image_overlay_opacity": 20,
         "image_height": "large",
         "desktop_content_position": "middle-right",
         "show_text_box": false,
@@ -229,32 +349,90 @@
         "dryer_image_sizing": false,
         "dryer_image_sizing_mobile": 80,
         "dryer_image_sizing_desktop": 80,
-        "dryer_image_sizing_position": "center"
+        "dryer_image_sizing_position": "bottom"
       }
     },
-    "b73d391e-3093-4cce-9d8c-06fe100cd79c": {
-      "type": "image-banner",
+    "3be90749-b475-42cd-a1e3-b6c2a0f2bf3b": {
+      "type": "multicolumn",
+      "disabled": true,
       "blocks": {
-        "template--15849754886299__b73d391e-3093-4cce-9d8c-06fe100cd79c-1683709700386a93b3-0": {
+        "template--15876847567003__3be90749-b475-42cd-a1e3-b6c2a0f2bf3b-16878813610fd1d9bd-0": {
+          "type": "column",
+          "settings": {
+            "title": "MAHSA x Sarah Bradden Combined Body Cleansing Treatment",
+            "text": "",
+            "link_label": "Learn more",
+            "link": ""
+          }
+        },
+        "template--15876847567003__3be90749-b475-42cd-a1e3-b6c2a0f2bf3b-16878813610fd1d9bd-1": {
+          "type": "column",
+          "settings": {
+            "title": "Dr Brandon Nejatii’s Signature Micro-layering treatment",
+            "text": "",
+            "link_label": "Learn more",
+            "link": ""
+          }
+        },
+        "template--15876847567003__3be90749-b475-42cd-a1e3-b6c2a0f2bf3b-16878813610fd1d9bd-2": {
+          "type": "column",
+          "settings": {
+            "title": "Signature MAHSA LED teeth whitening in clinic treatment",
+            "text": "",
+            "link_label": "Learn more",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--15876847567003__3be90749-b475-42cd-a1e3-b6c2a0f2bf3b-16878813610fd1d9bd-0",
+        "template--15876847567003__3be90749-b475-42cd-a1e3-b6c2a0f2bf3b-16878813610fd1d9bd-1",
+        "template--15876847567003__3be90749-b475-42cd-a1e3-b6c2a0f2bf3b-16878813610fd1d9bd-2"
+      ],
+      "settings": {
+        "title": "IN-Clinic TREATMENTs",
+        "heading_size": "h2",
+        "heading_alignment": "center",
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "columns_desktop": 3,
+        "column_alignment": "left",
+        "background_style": "none",
+        "button_label": "",
+        "button_link": "",
+        "color_scheme": "background-2",
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "slide_on_desktop": false,
+        "infinite_carousel": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "2a39843f-6fed-4e18-ba12-3d9e60c7faeb": {
+      "type": "rich-text",
+      "blocks": {
+        "template--15876847567003__2a39843f-6fed-4e18-ba12-3d9e60c7faeb-168788511138596fd5-0": {
           "type": "heading",
           "settings": {
-            "heading": "Image banner",
-            "heading_size": "h0"
+            "heading": "In-clinic treatments",
+            "heading_size": "h1"
           }
         },
-        "template--15849754886299__b73d391e-3093-4cce-9d8c-06fe100cd79c-1683709700386a93b3-1": {
+        "template--15876847567003__2a39843f-6fed-4e18-ba12-3d9e60c7faeb-168788511138596fd5-1": {
           "type": "text",
+          "disabled": true,
           "settings": {
-            "text": "Give customers details about the banner image(s) or content on the template.",
-            "text_style": "body"
+            "text": "<p>Share information about your brand with your customers. Describe a product, make announcements, or welcome customers to your store.<\/p>"
           }
         },
-        "template--15849754886299__b73d391e-3093-4cce-9d8c-06fe100cd79c-1683709700386a93b3-2": {
-          "type": "buttons",
+        "template--15876847567003__2a39843f-6fed-4e18-ba12-3d9e60c7faeb-168788511138596fd5-2": {
+          "type": "button",
+          "disabled": true,
           "settings": {
-            "button_label_1": "Button label",
-            "button_link_1": "",
-            "button_style_secondary_1": false,
+            "button_label": "Button label",
+            "button_link": "",
+            "button_style_secondary": false,
             "button_label_2": "",
             "button_link_2": "",
             "button_style_secondary_2": false
@@ -262,29 +440,292 @@
         }
       },
       "block_order": [
-        "template--15849754886299__b73d391e-3093-4cce-9d8c-06fe100cd79c-1683709700386a93b3-0",
-        "template--15849754886299__b73d391e-3093-4cce-9d8c-06fe100cd79c-1683709700386a93b3-1",
-        "template--15849754886299__b73d391e-3093-4cce-9d8c-06fe100cd79c-1683709700386a93b3-2"
+        "template--15876847567003__2a39843f-6fed-4e18-ba12-3d9e60c7faeb-168788511138596fd5-0",
+        "template--15876847567003__2a39843f-6fed-4e18-ba12-3d9e60c7faeb-168788511138596fd5-1",
+        "template--15876847567003__2a39843f-6fed-4e18-ba12-3d9e60c7faeb-168788511138596fd5-2"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/WhatsApp_Image_2023-04-12_at_17.27.19.jpg",
-        "image_overlay_opacity": 0,
-        "image_height": "large",
-        "desktop_content_position": "middle-left",
-        "show_text_box": false,
-        "desktop_content_alignment": "center",
-        "color_scheme": "background-1",
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "background-2",
+        "full_width": true,
+        "padding_top": 60,
+        "padding_bottom": 20
+      }
+    },
+    "52beef78-0596-46f6-92ee-9159047c1271": {
+      "type": "image-with-text",
+      "blocks": {
+        "template--15876847567003__52beef78-0596-46f6-92ee-9159047c1271-1687885441512ab2ed-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "MAHSA x Sarah Bradden Combined Body Cleansing Treatment",
+            "heading_size": "h2"
+          }
+        },
+        "template--15876847567003__52beef78-0596-46f6-92ee-9159047c1271-1687885441512ab2ed-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>The exclusive treatment combines Dr Mahsa Nejati’s anti-septic treatment with Sarah Bradden’s Bio-hacking technologies, cosmetic acupuncture and TCM healing practices.<\/p>",
+            "text_style": "body"
+          }
+        },
+        "template--15876847567003__52beef78-0596-46f6-92ee-9159047c1271-1687885441512ab2ed-2": {
+          "type": "button",
+          "settings": {
+            "button_label": "Learn more",
+            "button_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--15876847567003__52beef78-0596-46f6-92ee-9159047c1271-1687885441512ab2ed-0",
+        "template--15876847567003__52beef78-0596-46f6-92ee-9159047c1271-1687885441512ab2ed-1",
+        "template--15876847567003__52beef78-0596-46f6-92ee-9159047c1271-1687885441512ab2ed-2"
+      ],
+      "settings": {
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "mobile_layout": "image_first",
+        "desktop_layout": "image_first",
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "color_scheme": "background-2",
         "image_behavior": "none",
-        "mobile_content_alignment": "center",
-        "stack_images_on_mobile": true,
-        "show_text_below": false,
-        "margin_top": 60,
-        "margin_bottom": 0,
-        "container_max_width": 50,
-        "dryer_image_sizing": false,
-        "dryer_image_sizing_mobile": 80,
-        "dryer_image_sizing_desktop": 80,
-        "dryer_image_sizing_position": "center"
+        "mobile_content_alignment": "left",
+        "padding_top": 20,
+        "padding_bottom": 20,
+        "full_width": true,
+        "disable_image_border": true
+      }
+    },
+    "c81e7315-46bd-4493-af6c-8bbd55196b49": {
+      "type": "image-with-text",
+      "blocks": {
+        "d3a619d4-742c-4689-84cf-2ab7eab6b185": {
+          "type": "heading",
+          "settings": {
+            "heading": "Dr Brandon Nejatii’s Signature Micro-layering treatment",
+            "heading_size": "h2"
+          }
+        },
+        "b0c7543a-9d5f-492f-b77b-76983e264339": {
+          "type": "text",
+          "disabled": true,
+          "settings": {
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "text_style": "body"
+          }
+        },
+        "178b9138-b2a5-46bd-88e3-a20e3075cd0e": {
+          "type": "button",
+          "settings": {
+            "button_label": "Learn more",
+            "button_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "d3a619d4-742c-4689-84cf-2ab7eab6b185",
+        "b0c7543a-9d5f-492f-b77b-76983e264339",
+        "178b9138-b2a5-46bd-88e3-a20e3075cd0e"
+      ],
+      "settings": {
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "mobile_layout": "image_first",
+        "desktop_layout": "text_first",
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "color_scheme": "background-2",
+        "image_behavior": "none",
+        "mobile_content_alignment": "left",
+        "padding_top": 20,
+        "padding_bottom": 20,
+        "full_width": true,
+        "disable_image_border": true
+      }
+    },
+    "c18efc38-ae15-4b89-a5a9-871c53780fd6": {
+      "type": "image-with-text",
+      "blocks": {
+        "aa4f8434-0e34-4e51-bb22-55c69cc335c5": {
+          "type": "heading",
+          "settings": {
+            "heading": "Signature MAHSA LED teeth whitening in clinic treatment",
+            "heading_size": "h2"
+          }
+        },
+        "13bf315b-d254-4ab9-baa1-94abed80ea21": {
+          "type": "text",
+          "disabled": true,
+          "settings": {
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "text_style": "body"
+          }
+        },
+        "79a77b47-d9f3-463f-95af-c3e988a0db8b": {
+          "type": "button",
+          "settings": {
+            "button_label": "Learn more",
+            "button_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "aa4f8434-0e34-4e51-bb22-55c69cc335c5",
+        "13bf315b-d254-4ab9-baa1-94abed80ea21",
+        "79a77b47-d9f3-463f-95af-c3e988a0db8b"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/Sequence_01.00_00_31_14.Still004.jpg",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "mobile_layout": "image_first",
+        "desktop_layout": "image_first",
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "color_scheme": "background-2",
+        "image_behavior": "none",
+        "mobile_content_alignment": "left",
+        "padding_top": 20,
+        "padding_bottom": 60,
+        "full_width": true,
+        "disable_image_border": true
+      }
+    },
+    "08cb3de9-46bf-4a5d-8017-82c42a9acad9": {
+      "type": "rich-text",
+      "disabled": true,
+      "blocks": {
+        "template--15876847567003__08cb3de9-46bf-4a5d-8017-82c42a9acad9-168788181414e571c5-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "MAHSA x Sarah Bradden Combined Body Cleansing Treatment",
+            "heading_size": "h2"
+          }
+        },
+        "template--15876847567003__08cb3de9-46bf-4a5d-8017-82c42a9acad9-168788181414e571c5-1": {
+          "type": "text",
+          "disabled": true,
+          "settings": {
+            "text": "<p>Share information about your brand with your customers. Describe a product, make announcements, or welcome customers to your store.<\/p>"
+          }
+        },
+        "template--15876847567003__08cb3de9-46bf-4a5d-8017-82c42a9acad9-168788181414e571c5-2": {
+          "type": "button",
+          "settings": {
+            "button_label": "Learn more",
+            "button_link": "",
+            "button_style_secondary": false,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "template--15876847567003__08cb3de9-46bf-4a5d-8017-82c42a9acad9-168788181414e571c5-0",
+        "template--15876847567003__08cb3de9-46bf-4a5d-8017-82c42a9acad9-168788181414e571c5-1",
+        "template--15876847567003__08cb3de9-46bf-4a5d-8017-82c42a9acad9-168788181414e571c5-2"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "background-2",
+        "full_width": true,
+        "padding_top": 20,
+        "padding_bottom": 20
+      }
+    },
+    "b439ce7d-cfa8-43a9-ad15-8fc075bc9f6c": {
+      "type": "rich-text",
+      "disabled": true,
+      "blocks": {
+        "template--15876847567003__b439ce7d-cfa8-43a9-ad15-8fc075bc9f6c-168788181414e571c5-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "Dr Brandon Nejatii’s Signature Micro-layering treatment",
+            "heading_size": "h2"
+          }
+        },
+        "template--15876847567003__b439ce7d-cfa8-43a9-ad15-8fc075bc9f6c-168788181414e571c5-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Share information about your brand with your customers. Describe a product, make announcements, or welcome customers to your store.<\/p>"
+          }
+        },
+        "template--15876847567003__b439ce7d-cfa8-43a9-ad15-8fc075bc9f6c-168788181414e571c5-2": {
+          "type": "button",
+          "settings": {
+            "button_label": "Learn more",
+            "button_link": "",
+            "button_style_secondary": false,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "template--15876847567003__b439ce7d-cfa8-43a9-ad15-8fc075bc9f6c-168788181414e571c5-0",
+        "template--15876847567003__b439ce7d-cfa8-43a9-ad15-8fc075bc9f6c-168788181414e571c5-1",
+        "template--15876847567003__b439ce7d-cfa8-43a9-ad15-8fc075bc9f6c-168788181414e571c5-2"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "background-1",
+        "full_width": true,
+        "padding_top": 20,
+        "padding_bottom": 20
+      }
+    },
+    "53c68170-07ff-4ae2-9cbf-69c28ba1b077": {
+      "type": "rich-text",
+      "disabled": true,
+      "blocks": {
+        "template--15876847567003__53c68170-07ff-4ae2-9cbf-69c28ba1b077-168788511138596fd5-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "Signature MAHSA LED teeth whitening in clinic treatment",
+            "heading_size": "h2"
+          }
+        },
+        "template--15876847567003__53c68170-07ff-4ae2-9cbf-69c28ba1b077-168788511138596fd5-1": {
+          "type": "text",
+          "disabled": true,
+          "settings": {
+            "text": "<p>Share information about your brand with your customers. Describe a product, make announcements, or welcome customers to your store.<\/p>"
+          }
+        },
+        "template--15876847567003__53c68170-07ff-4ae2-9cbf-69c28ba1b077-168788511138596fd5-2": {
+          "type": "button",
+          "settings": {
+            "button_label": "Learn more",
+            "button_link": "",
+            "button_style_secondary": false,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "template--15876847567003__53c68170-07ff-4ae2-9cbf-69c28ba1b077-168788511138596fd5-0",
+        "template--15876847567003__53c68170-07ff-4ae2-9cbf-69c28ba1b077-168788511138596fd5-1",
+        "template--15876847567003__53c68170-07ff-4ae2-9cbf-69c28ba1b077-168788511138596fd5-2"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "background-2",
+        "full_width": true,
+        "padding_top": 20,
+        "padding_bottom": 40
       }
     }
   },
@@ -292,7 +733,16 @@
     "image_banner",
     "7ef19a1f-f20a-4d98-9ec4-c2a8f5ee70bb",
     "featured_collection",
+    "b73d391e-3093-4cce-9d8c-06fe100cd79c",
+    "357fbaad-1f61-4cba-bc96-85d7a2e4e869",
     "8ef7cd59-eabb-4193-b59f-0ea5fc2f4c4b",
-    "b73d391e-3093-4cce-9d8c-06fe100cd79c"
+    "3be90749-b475-42cd-a1e3-b6c2a0f2bf3b",
+    "2a39843f-6fed-4e18-ba12-3d9e60c7faeb",
+    "52beef78-0596-46f6-92ee-9159047c1271",
+    "c81e7315-46bd-4493-af6c-8bbd55196b49",
+    "c18efc38-ae15-4b89-a5a9-871c53780fd6",
+    "08cb3de9-46bf-4a5d-8017-82c42a9acad9",
+    "b439ce7d-cfa8-43a9-ad15-8fc075bc9f6c",
+    "53c68170-07ff-4ae2-9cbf-69c28ba1b077"
   ]
 }

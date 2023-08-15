@@ -1,0 +1,284 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "color_scheme": "background-2",
+        "padding_top": 44,
+        "padding_bottom": 12
+      }
+    },
+    "7e731474-d32f-4b59-8341-1a1c5558742e": {
+      "type": "multicolumn",
+      "blocks": {
+        "template--15876940726427__7e731474-d32f-4b59-8341-1a1c5558742e-16871965893ff2fc2d-0": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/the_times_logo.png",
+            "title": "",
+            "text": "",
+            "link_label": "The best beauty experts in London",
+            "link": "https:\/\/www.thetimes.co.uk\/article\/best-beauty-experts-london-times-luxury-mhvfg7dpr"
+          }
+        },
+        "template--15876940726427__7e731474-d32f-4b59-8341-1a1c5558742e-16871965893ff2fc2d-1": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/the_times_logo.png",
+            "title": "",
+            "text": "",
+            "link_label": "How to get fit and look good in 2023: 13 tips and trends",
+            "link": "https:\/\/www.thetimes.co.uk\/article\/how-to-get-fit-fast-healthy-tips-tricks-2023-mlftjfbd8"
+          }
+        },
+        "template--15876940726427__7e731474-d32f-4b59-8341-1a1c5558742e-16871965893ff2fc2d-2": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/GQ_logo.png",
+            "title": "",
+            "text": "",
+            "link_label": "Best new grooming items this week",
+            "link": "https:\/\/www.gq-magazine.co.uk\/gallery\/best-new-grooming-items-this-week"
+          }
+        },
+        "e1919a86-3514-4d6f-a249-7f133347bcf8": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/daily-mail.png",
+            "title": "",
+            "text": "",
+            "link_label": "Inside the BRIT Awards' VERY lavish gift box: A five-star luxury hotel stay, an eco-friendly fashion rental voucher and a box of Kate Moss' herbal tea",
+            "link": "https:\/\/www.dailymail.co.uk\/tvshowbiz\/article-11726731\/BRITs-2023-Inside-BRIT-Awards-lavish-gift-box.html"
+          }
+        },
+        "7c6cb342-6b1e-43fa-8b84-7d7dcc1e47a2": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Glamour_Logo.png",
+            "title": "",
+            "text": "",
+            "link_label": "BRIT Awards 2023: As Harry Styles and Wet Leg top the nominations, here's the full list featuring Taylor Swift, Dua Lipa and Beyoncé",
+            "link": "https:\/\/www.glamourmagazine.co.uk\/article\/brit-awards-2023-nominations"
+          }
+        },
+        "20398ff4-5540-46a5-9ac5-1539686296a2": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/ES_Magazine_Logo.png",
+            "title": "",
+            "text": "",
+            "link_label": "BRIT Awards 2023: Lizzo among celebs gifted a luxury goodie box ahead of Warner Music after party",
+            "link": "https:\/\/www.standard.co.uk\/showbiz\/brit-awards-2023-lizzo-sam-ryder-celebrities-gifted-luxury-goodie-box-warner-music-after-party-b1059466.html"
+          }
+        },
+        "98fc7c6c-c6b1-4756-b9f4-8574e8861fba": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/AnOther_Logo.png",
+            "title": "",
+            "text": "",
+            "link_label": "The Spa-Like Dentist You Won’t Dread",
+            "link": "https:\/\/www.anothermag.com\/fashion-beauty\/14775\/nejati-clinic-masha"
+          }
+        },
+        "f3c6559b-0cb4-4529-a350-893d152384ef": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/the_times_logo.png",
+            "title": "",
+            "text": "",
+            "link_label": "How to anti-age your smile",
+            "link": "https:\/\/www.thetimes.co.uk\/article\/how-to-anti-age-your-smile-02f7hb58p"
+          }
+        },
+        "377d1477-b929-454d-bcfd-da195d628bbb": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Get_The_Gloss_Logo_24081049-4aab-44d9-bc39-4cafbae6fdea.png",
+            "title": "",
+            "text": "",
+            "link_label": "Get The Gloss Wellness Awards 2023 Finalists",
+            "link": "https:\/\/www.getthegloss.com\/get-the-gloss-wellness-awards-2023-finalists"
+          }
+        },
+        "f9998b04-5f57-4f53-8edc-9aaa0d031292": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Get_The_Gloss_Logo_24081049-4aab-44d9-bc39-4cafbae6fdea.png",
+            "title": "",
+            "text": "",
+            "link_label": "Get The Gloss Wellness Awards 2023 Winners",
+            "link": "https:\/\/www.getthegloss.com\/get-the-gloss-wellness-awards-2023-winners?mc_cid=102f241d8e&mc_eid=e66f727099"
+          }
+        },
+        "ed3090b4-b69b-4e06-b33d-4b022cdead2d": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/bazaar.png",
+            "title": "",
+            "text": "",
+            "link_label": "Is acupuncture a natural facelift?",
+            "link": "https:\/\/www.harpersbazaar.in\/beauty\/story\/is-acupuncture-a-natural-facelift-3459"
+          }
+        }
+      },
+      "block_order": [
+        "template--15876940726427__7e731474-d32f-4b59-8341-1a1c5558742e-16871965893ff2fc2d-0",
+        "template--15876940726427__7e731474-d32f-4b59-8341-1a1c5558742e-16871965893ff2fc2d-1",
+        "template--15876940726427__7e731474-d32f-4b59-8341-1a1c5558742e-16871965893ff2fc2d-2",
+        "e1919a86-3514-4d6f-a249-7f133347bcf8",
+        "7c6cb342-6b1e-43fa-8b84-7d7dcc1e47a2",
+        "20398ff4-5540-46a5-9ac5-1539686296a2",
+        "98fc7c6c-c6b1-4756-b9f4-8574e8861fba",
+        "f3c6559b-0cb4-4529-a350-893d152384ef",
+        "377d1477-b929-454d-bcfd-da195d628bbb",
+        "f9998b04-5f57-4f53-8edc-9aaa0d031292",
+        "ed3090b4-b69b-4e06-b33d-4b022cdead2d"
+      ],
+      "settings": {
+        "title": "2023",
+        "heading_size": "h1",
+        "heading_alignment": "center",
+        "image_width": "half",
+        "image_ratio": "square",
+        "columns_desktop": 3,
+        "column_alignment": "center",
+        "background_style": "none",
+        "button_label": "",
+        "button_link": "",
+        "color_scheme": "background-1",
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "slide_on_desktop": true,
+        "infinite_carousel": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "c1f96ac0-485a-49fe-a7c0-69da3922d8fa": {
+      "type": "multicolumn",
+      "blocks": {
+        "template--15876940726427__c1f96ac0-485a-49fe-a7c0-69da3922d8fa-1687249495ffc07ca6-0": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/arcadia-logo.png",
+            "title": "",
+            "text": "",
+            "link_label": "Introducing the Nejati Clinic in Belgravia",
+            "link": "https:\/\/www.thearcadiaonline.com\/introducing-the-nejati-clinic-in-belgravia\/"
+          }
+        },
+        "template--15876940726427__c1f96ac0-485a-49fe-a7c0-69da3922d8fa-1687249495ffc07ca6-1": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/destino.png",
+            "title": "",
+            "text": "",
+            "link_label": "The Most Exciting Destination Openings Of 2022",
+            "link": "https:\/\/the-destino.com\/top5\/the-most-exciting-destination-openings-of-2022\/"
+          }
+        },
+        "template--15876940726427__c1f96ac0-485a-49fe-a7c0-69da3922d8fa-1687249495ffc07ca6-2": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/eb_logo.png",
+            "title": "",
+            "text": "",
+            "link_label": "Discover the Smarter Way to a Brighter Smile",
+            "link": "https:\/\/www.editorsbeauty.com\/home-2\/the-smarter-way-to-a-bright-smile-and-why-we-should-be-aware-of-the-dangers-of-diy-teeth-whitening"
+          }
+        }
+      },
+      "block_order": [
+        "template--15876940726427__c1f96ac0-485a-49fe-a7c0-69da3922d8fa-1687249495ffc07ca6-0",
+        "template--15876940726427__c1f96ac0-485a-49fe-a7c0-69da3922d8fa-1687249495ffc07ca6-1",
+        "template--15876940726427__c1f96ac0-485a-49fe-a7c0-69da3922d8fa-1687249495ffc07ca6-2"
+      ],
+      "settings": {
+        "title": "2022",
+        "heading_size": "h1",
+        "heading_alignment": "center",
+        "image_width": "half",
+        "image_ratio": "adapt",
+        "columns_desktop": 3,
+        "column_alignment": "center",
+        "background_style": "none",
+        "button_label": "",
+        "button_link": "",
+        "color_scheme": "background-1",
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "slide_on_desktop": false,
+        "infinite_carousel": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "6a60d240-440d-4cfe-a484-f5db8af98675": {
+      "type": "multicolumn",
+      "blocks": {
+        "4f20e741-69f9-46b2-8ec6-c9b856b755c0": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/vogue_logo.png",
+            "title": "",
+            "text": "",
+            "link_label": "Why A Whiter, Brighter Smile Is The Real Key To A Youthful Face",
+            "link": "https:\/\/www.vogue.co.uk\/beauty\/article\/white-teeth-youthful-face"
+          }
+        },
+        "863e0e53-b172-4f03-bb8d-8e3f9cf2a537": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/METRO_Logo.png",
+            "title": "",
+            "text": "",
+            "link_label": "Is Zoom! in-office teeth whitening worth the faff?",
+            "link": "https:\/\/metro.co.uk\/2021\/04\/10\/is-zoom-in-office-teeth-whitening-worth-the-faff-14385595\/"
+          }
+        },
+        "5968c7b3-4619-4ae4-b340-c2305c64b74a": {
+          "type": "column",
+          "disabled": true,
+          "settings": {
+            "title": "",
+            "text": "",
+            "link_label": "I’m a dentist and this is why I’d never feed my kids chips or too much bread – it’s nearly as bad as sugar",
+            "link": "https:\/\/www.thesun.co.uk\/fabulous\/16200584\/dentist-would-never-feed-kids-chips-or-bread\/"
+          }
+        }
+      },
+      "block_order": [
+        "4f20e741-69f9-46b2-8ec6-c9b856b755c0",
+        "863e0e53-b172-4f03-bb8d-8e3f9cf2a537",
+        "5968c7b3-4619-4ae4-b340-c2305c64b74a"
+      ],
+      "settings": {
+        "title": "2021",
+        "heading_size": "h1",
+        "heading_alignment": "center",
+        "image_width": "half",
+        "image_ratio": "square",
+        "columns_desktop": 3,
+        "column_alignment": "center",
+        "background_style": "none",
+        "button_label": "",
+        "button_link": "",
+        "color_scheme": "background-1",
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "slide_on_desktop": false,
+        "infinite_carousel": false,
+        "padding_top": 36,
+        "padding_bottom": 72
+      }
+    }
+  },
+  "order": [
+    "main",
+    "7e731474-d32f-4b59-8341-1a1c5558742e",
+    "c1f96ac0-485a-49fe-a7c0-69da3922d8fa",
+    "6a60d240-440d-4cfe-a484-f5db8af98675"
+  ]
+}

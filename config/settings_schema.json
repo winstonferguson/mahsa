@@ -14,6 +14,11 @@
         "type": "checkbox",
         "id": "home_header_alpha",
         "label": "Transparent header on homepage"
+      },
+      {
+        "type": "checkbox",
+        "id": "show_shop_menu",
+        "label": "Show shop menu on product and collection pages"
       }
     ]
   },

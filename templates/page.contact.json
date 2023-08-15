@@ -3,8 +3,61 @@
     "main": {
       "type": "main-page",
       "settings": {
+        "color_scheme": "background-2",
         "padding_top": 36,
         "padding_bottom": 36
+      }
+    },
+    "6c133b1e-a2e1-4b4b-a306-76a9290b3812": {
+      "type": "rich-text",
+      "disabled": true,
+      "blocks": {
+        "template--15876847829147__6c133b1e-a2e1-4b4b-a306-76a9290b3812-168788181414e571c5-0": {
+          "type": "heading",
+          "disabled": true,
+          "settings": {
+            "heading": "",
+            "heading_size": "h1"
+          }
+        },
+        "a28638d3-5413-46bd-99cf-c199a2327269": {
+          "type": "text",
+          "settings": {
+            "text": "<p>25A Lowndes Street, Belgravia, SW1X 9JF<\/p>"
+          }
+        },
+        "template--15876847829147__6c133b1e-a2e1-4b4b-a306-76a9290b3812-168788181414e571c5-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>GDC Registration Number: 83036<\/p><p><\/p>"
+          }
+        },
+        "template--15876847829147__6c133b1e-a2e1-4b4b-a306-76a9290b3812-168788181414e571c5-2": {
+          "type": "button",
+          "disabled": true,
+          "settings": {
+            "button_label": "Button label",
+            "button_link": "",
+            "button_style_secondary": false,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "template--15876847829147__6c133b1e-a2e1-4b4b-a306-76a9290b3812-168788181414e571c5-0",
+        "a28638d3-5413-46bd-99cf-c199a2327269",
+        "template--15876847829147__6c133b1e-a2e1-4b4b-a306-76a9290b3812-168788181414e571c5-1",
+        "template--15876847829147__6c133b1e-a2e1-4b4b-a306-76a9290b3812-168788181414e571c5-2"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "background-2",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
       }
     },
     "form": {
@@ -14,12 +67,13 @@
         "heading_size": "h1",
         "color_scheme": "background-1",
         "padding_top": 36,
-        "padding_bottom": 36
+        "padding_bottom": 72
       }
     }
   },
   "order": [
     "main",
+    "6c133b1e-a2e1-4b4b-a306-76a9290b3812",
     "form"
   ]
 }

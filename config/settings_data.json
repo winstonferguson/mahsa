@@ -1,6 +1,7 @@
 {
   "current": {
     "home_header_alpha": true,
+    "show_shop_menu": true,
     "logo": "shopify:\/\/shop_images\/NEW_MAHSA_pmd_black_logo.png",
     "logo_width": 160,
     "colors_solid_button_labels": "#ffffff",
@@ -20,8 +21,8 @@
     "body_scale": 100,
     "page_width": 1600,
     "spacing_sections": 0,
-    "spacing_grid_horizontal": 60,
-    "spacing_grid_vertical": 60,
+    "spacing_grid_horizontal": 80,
+    "spacing_grid_vertical": 80,
     "buttons_border_thickness": 1,
     "buttons_border_opacity": 100,
     "buttons_radius": 0,
