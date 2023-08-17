@@ -409,6 +409,62 @@
         "padding_bottom": 36
       }
     },
+    "da876f3c-3acd-4903-b697-3327baa0e976": {
+      "type": "image-banner",
+      "blocks": {
+        "template--15876847567003__da876f3c-3acd-4903-b697-3327baa0e976-heading-1": {
+          "type": "heading",
+          "settings": {
+            "heading": "Anti-aging Revolution.",
+            "heading_size": "h0"
+          }
+        },
+        "template--15876847567003__da876f3c-3acd-4903-b697-3327baa0e976-text-1": {
+          "type": "text",
+          "settings": {
+            "text": "Rejuvenate your smile by turning back the aging-clock.Backed by dental science and studies in our renowned Clinic in the heart of Belgravia-London.",
+            "text_style": "body"
+          }
+        },
+        "template--15876847567003__da876f3c-3acd-4903-b697-3327baa0e976-buttons-1": {
+          "type": "buttons",
+          "disabled": true,
+          "settings": {
+            "button_label_1": "Button label",
+            "button_link_1": "",
+            "button_style_secondary_1": false,
+            "button_label_2": "Button label",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "template--15876847567003__da876f3c-3acd-4903-b697-3327baa0e976-heading-1",
+        "template--15876847567003__da876f3c-3acd-4903-b697-3327baa0e976-text-1",
+        "template--15876847567003__da876f3c-3acd-4903-b697-3327baa0e976-buttons-1"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/iStock-1170104906.jpg",
+        "image_overlay_opacity": 30,
+        "image_height": "medium",
+        "desktop_content_position": "middle-center",
+        "show_text_box": false,
+        "desktop_content_alignment": "center",
+        "color_scheme": "background-1",
+        "image_behavior": "none",
+        "mobile_content_alignment": "center",
+        "stack_images_on_mobile": true,
+        "show_text_below": true,
+        "margin_top": 60,
+        "margin_bottom": 0,
+        "container_max_width": 89,
+        "dryer_image_sizing": false,
+        "dryer_image_sizing_mobile": 80,
+        "dryer_image_sizing_desktop": 80,
+        "dryer_image_sizing_position": "center"
+      }
+    },
     "2a39843f-6fed-4e18-ba12-3d9e60c7faeb": {
       "type": "rich-text",
       "blocks": {
@@ -484,7 +540,7 @@
         "template--15876847567003__52beef78-0596-46f6-92ee-9159047c1271-1687885441512ab2ed-2"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/istockphoto-1225060757-1024x1024_1.jpg",
+        "image": "shopify:\/\/shop_images\/peaceful-woman-stretching-arms-towards-sky_1.jpg",
         "height": "adapt",
         "desktop_image_width": "medium",
         "mobile_layout": "image_first",
@@ -532,7 +588,7 @@
         "178b9138-b2a5-46bd-88e3-a20e3075cd0e"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/istockphoto-1435375365-1024x1024.jpg",
+        "image": "shopify:\/\/shop_images\/iStock-185424046.jpg",
         "height": "adapt",
         "desktop_image_width": "medium",
         "mobile_layout": "image_first",
@@ -580,7 +636,7 @@
         "79a77b47-d9f3-463f-95af-c3e988a0db8b"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/istockphoto-1294339577-1024x1024.jpg",
+        "image": "shopify:\/\/shop_images\/iStock-942784570.jpg",
         "height": "adapt",
         "desktop_image_width": "medium",
         "mobile_layout": "image_first",
@@ -737,6 +793,7 @@
     "357fbaad-1f61-4cba-bc96-85d7a2e4e869",
     "8ef7cd59-eabb-4193-b59f-0ea5fc2f4c4b",
     "3be90749-b475-42cd-a1e3-b6c2a0f2bf3b",
+    "da876f3c-3acd-4903-b697-3327baa0e976",
     "2a39843f-6fed-4e18-ba12-3d9e60c7faeb",
     "52beef78-0596-46f6-92ee-9159047c1271",
     "c81e7315-46bd-4493-af6c-8bbd55196b49",

@@ -1,0 +1,196 @@
+{
+  "sections": {
+    "22491f25-9a39-422c-9dff-b82e4f2f3923": {
+      "type": "image-with-text",
+      "blocks": {
+        "template--15914132439195__22491f25-9a39-422c-9dff-b82e4f2f3923-heading-1": {
+          "type": "heading",
+          "settings": {
+            "heading": "Our vision",
+            "heading_size": "h2"
+          }
+        },
+        "template--15914132439195__22491f25-9a39-422c-9dff-b82e4f2f3923-text-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>To see the mouth as an integral part of the whole body health. <\/p>",
+            "text_style": "subtitle"
+          }
+        },
+        "template--15914132439195__22491f25-9a39-422c-9dff-b82e4f2f3923-button-1": {
+          "type": "button",
+          "settings": {
+            "button_label": "",
+            "button_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--15914132439195__22491f25-9a39-422c-9dff-b82e4f2f3923-heading-1",
+        "template--15914132439195__22491f25-9a39-422c-9dff-b82e4f2f3923-text-1",
+        "template--15914132439195__22491f25-9a39-422c-9dff-b82e4f2f3923-button-1"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/mahsa-brandon.png",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "mobile_layout": "image_first",
+        "desktop_layout": "image_first",
+        "desktop_content_position": "middle",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "color_scheme": "background-2",
+        "image_behavior": "none",
+        "mobile_content_alignment": "center",
+        "padding_top": 36,
+        "padding_bottom": 36,
+        "full_width": false,
+        "disable_image_border": false
+      }
+    },
+    "main": {
+      "type": "main-page",
+      "settings": {
+        "color_scheme": "background-1",
+        "padding_top": 56,
+        "padding_bottom": 72
+      }
+    },
+    "29356e97-0c0a-470a-b22d-ad284edb16c2": {
+      "type": "image-with-text",
+      "blocks": {
+        "template--15914132439195__29356e97-0c0a-470a-b22d-ad284edb16c2-text-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>With their unique formulations and revolutionary approach, you will step into a world where self care takes on a new dimension, where your oral ritual is elevated into an art form. Because true radiance starts with a healthy you.<\/p>",
+            "text_style": "body"
+          }
+        }
+      },
+      "block_order": [
+        "template--15914132439195__29356e97-0c0a-470a-b22d-ad284edb16c2-text-1"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/nejatiCLinic.jpg",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "mobile_layout": "image_first",
+        "desktop_layout": "image_first",
+        "desktop_content_position": "middle",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "color_scheme": "background-2",
+        "image_behavior": "none",
+        "mobile_content_alignment": "left",
+        "padding_top": 0,
+        "padding_bottom": 0,
+        "full_width": false,
+        "disable_image_border": true
+      }
+    },
+    "b0236b17-b116-4f49-bb21-19463d1f19a7": {
+      "type": "image-with-text",
+      "blocks": {
+        "e5052b50-8be6-4da3-86a0-3e4da550f258": {
+          "type": "text",
+          "settings": {
+            "text": "<p>We created MAHSA and the Nejati Clinic because we believed the mouth is a gateway for the rest of the body and oral health affects systemic health. That natural ingredients that mimics the nature are far better for your well-being than any other chemicals put together in an artificial way.<\/p>",
+            "text_style": "body"
+          }
+        }
+      },
+      "block_order": [
+        "e5052b50-8be6-4da3-86a0-3e4da550f258"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/Sequence_01.00_00_42_27.Still006.jpg",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "mobile_layout": "image_first",
+        "desktop_layout": "text_first",
+        "desktop_content_position": "middle",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "color_scheme": "background-2",
+        "image_behavior": "none",
+        "mobile_content_alignment": "left",
+        "padding_top": 0,
+        "padding_bottom": 0,
+        "full_width": false,
+        "disable_image_border": true
+      }
+    },
+    "24a36ea2-1026-4a2d-b62b-ff3db13fdfc8": {
+      "type": "image-with-text",
+      "blocks": {
+        "7be42203-4b9d-4275-b3c9-24a8bf7de09a": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Our products are formulated in our renowned Clinic in the heart of Belgravia-London.<\/p>",
+            "text_style": "body"
+          }
+        }
+      },
+      "block_order": [
+        "7be42203-4b9d-4275-b3c9-24a8bf7de09a"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/nejatiCLinic2.jpg",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "mobile_layout": "image_first",
+        "desktop_layout": "image_first",
+        "desktop_content_position": "middle",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "color_scheme": "background-2",
+        "image_behavior": "none",
+        "mobile_content_alignment": "left",
+        "padding_top": 0,
+        "padding_bottom": 0,
+        "full_width": false,
+        "disable_image_border": true
+      }
+    },
+    "44b32f69-daad-4ef7-bb1b-61e27c0fb09e": {
+      "type": "image-with-text",
+      "blocks": {
+        "1d4e0ab5-209e-457c-9abd-9d38681106f1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Our products and packaging are clean and sustainable with a minimum amount of waste. <\/p>",
+            "text_style": "body"
+          }
+        }
+      },
+      "block_order": [
+        "1d4e0ab5-209e-457c-9abd-9d38681106f1"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/WhatsApp_Image_2023-08-16_at_19.32.37.jpg",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "mobile_layout": "image_first",
+        "desktop_layout": "text_first",
+        "desktop_content_position": "middle",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "color_scheme": "background-2",
+        "image_behavior": "none",
+        "mobile_content_alignment": "left",
+        "padding_top": 0,
+        "padding_bottom": 0,
+        "full_width": false,
+        "disable_image_border": true
+      }
+    }
+  },
+  "order": [
+    "22491f25-9a39-422c-9dff-b82e4f2f3923",
+    "main",
+    "29356e97-0c0a-470a-b22d-ad284edb16c2",
+    "b0236b17-b116-4f49-bb21-19463d1f19a7",
+    "24a36ea2-1026-4a2d-b62b-ff3db13fdfc8",
+    "44b32f69-daad-4ef7-bb1b-61e27c0fb09e"
+  ]
+}

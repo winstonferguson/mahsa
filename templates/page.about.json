@@ -1,48 +1,9 @@
 {
   "sections": {
-    "6f46af54-846e-4fe7-b371-e604217117dd": {
-      "type": "image-with-text",
-      "blocks": {
-        "template--15859320225947__6f46af54-846e-4fe7-b371-e604217117dd-168450781397d86e17-0": {
-          "type": "heading",
-          "settings": {
-            "heading": "Dr Mahsa Nejati",
-            "heading_size": "h1"
-          }
-        },
-        "template--15859320225947__6f46af54-846e-4fe7-b371-e604217117dd-168450781397d86e17-1": {
-          "type": "text",
-          "settings": {
-            "text": "<p>Dr Mahsa Nejati is a leading London dental surgeon and teeth whitening specialist, based at the Nejati Clinic in Belgravia<\/p>",
-            "text_style": "body"
-          }
-        }
-      },
-      "block_order": [
-        "template--15859320225947__6f46af54-846e-4fe7-b371-e604217117dd-168450781397d86e17-0",
-        "template--15859320225947__6f46af54-846e-4fe7-b371-e604217117dd-168450781397d86e17-1"
-      ],
-      "settings": {
-        "image": "shopify:\/\/shop_images\/drNejati2_b15ba030-195f-4cd5-a97e-04c977d6e719.png",
-        "height": "medium",
-        "desktop_image_width": "medium",
-        "mobile_layout": "text_first",
-        "desktop_layout": "image_first",
-        "desktop_content_position": "middle",
-        "desktop_content_alignment": "center",
-        "content_layout": "no-overlap",
-        "color_scheme": "background-2",
-        "image_behavior": "none",
-        "mobile_content_alignment": "center",
-        "padding_top": 0,
-        "padding_bottom": 0,
-        "full_width": false,
-        "disable_image_border": false
-      }
-    },
     "main": {
       "type": "main-page",
       "settings": {
+        "color_scheme": "background-1",
         "padding_top": 28,
         "padding_bottom": 56
       }
@@ -98,7 +59,6 @@
     }
   },
   "order": [
-    "6f46af54-846e-4fe7-b371-e604217117dd",
     "main",
     "1e00ca51-994d-4941-85da-2951791c0778"
   ]
